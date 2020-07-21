@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+    background-size: cover;
+    background: linear-gradient(180deg, rgba(179, 179, 179, 0.7) 0%, 
+    rgba(255, 255, 255, 0) 100%), #C69E92;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation{ 
+    margin: 50px 50px;
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0px 20px;
+    padding: 50px;
+}
+
+.navigation a:hover {
+    color: white;
+    transition-duration: 0.3s;
+}
+
+.active {
+    color: white !important;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#header {
+    margin: 50px 100px;
+}
+
+#header h4 {
+    font-weight: 500;
+}
+
+#header hr {
+    position: absolute;
+    left: 110px;
+    top: 170px;
+    border: 3px solid black;
+    width: 20%;
+}
+
+.women-image {
+    position: absolute;
+    width: 258.26px;
+    height: 2120.36px;
+    left: 1605.73px;
+    top: -275.6px;
+
+    background: url(img/2-women.jpg) no-repeat;
+    transform: rotate(49.9deg);
+}
